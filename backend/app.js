@@ -21,10 +21,7 @@ app.use((req, res, next) => {
 function sendEmail({ email, message, name }) {
   console.log(" email, message, name ", email, message, name);
   
-  if (!email || !message || !name) {
-    console.error("Missing parameters:", { email, message, name });
-    return Promise.reject({ message: "Missing email, name, or message." });
-  }
+  
 
   return new Promise((resolve, reject) => {
     const transporter = nodemailer.createTransport({
