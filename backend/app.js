@@ -7,7 +7,7 @@ const app = express();
 const port =  process.env.PORT || 5000;
 
 app.use(cors({
-  origin: "http://localhost:5173", // Allow only requests from the Vite dev server
+  origin: process.env.CLIENT_URL, // Allow only requests from the Vite dev server
   methods: ["GET", "POST"],       // Allow these HTTP methods
   credentials: true               // Allow cookies if needed
 }));
