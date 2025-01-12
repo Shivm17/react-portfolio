@@ -38,7 +38,7 @@ const About = () => {
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-gray-200 dark:bg-gray-700 rounded-full mt-1.5 -left-1.5 border border-white"></div>
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-300">
-                  march 2024
+                  March 2024
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   MSC(CA&IT)
