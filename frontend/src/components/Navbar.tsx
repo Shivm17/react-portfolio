@@ -26,7 +26,8 @@ const Navbar = () => {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`fixed w-full z-50 transition-all duration-300 ${
+      style={{ fontFamily: "CustomFont" }}
+      className={`fixed w-full z-50 transition-all backdrop-blur font-semibold duration-300 ${
         isScrolled ? " bg-transparent" : "bg-transparent"
       }`}
     >

@@ -53,7 +53,7 @@ const specialties = [
   },
   {
     icon: <TabletSmartphone className="w-8 h-8" />,
-    title: "testing",
+    title: "Testing",
     description: "Testing The and QA porject  ",
   },
 ];

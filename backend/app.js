@@ -34,7 +34,7 @@ function sendEmail({ email, message, name }) {
 
     const mail_configs = {
       from: email,
-      to: "shivmspc@gmail.com",          // Your email to receive the message
+      to: process.env.EMAIL_USER,          // Your email to receive the message
       subject: name,                     // The name as the subject
       html: `<p>${message}</p><p>Best Regards</p>`, // Message content
       replyTo: email  

@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'CustomFont'; /* You can choose a name for your font */
+  src: url('/c9a5bc6a7c948fb0-s.p.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

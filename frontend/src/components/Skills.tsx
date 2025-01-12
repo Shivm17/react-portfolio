@@ -1,16 +1,16 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
+import React from "react";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 const skills = [
-  { name: 'React.js', progress: 90 },
-  { name: 'Node.js', progress: 85 },
-  { name: 'Next.js', progress: 80 },
-  { name: 'JavaScript', progress: 95 },
-  { name: 'Postman', progress: 85 },
-  { name: 'Three JS', progress: 60 },
-  { name: 'React Three Fiber', progress: 60 },
-  { name: 'GSAP', progress: 65 },
+  { name: "React.js", progress: 90 },
+  { name: "Node.js", progress: 85 },
+  { name: "Next.js", progress: 80 },
+  { name: "JavaScript", progress: 95 },
+  { name: "Postman", progress: 85 },
+  { name: "Three JS", progress: 60 },
+  { name: "React Three Fiber", progress: 60 },
+  { name: "GSAP", progress: 65 },
 ];
 
 const Skills = () => {
@@ -40,7 +40,6 @@ const Skills = () => {
             >
               <div className="flex justify-between mb-1">
                 <span className="font-medium">{skill.name}</span>
-                <span>{skill.progress}%</span>
               </div>
               <div className="h-2 bg-white/10 rounded-full overflow-hidden">
                 <motion.div
