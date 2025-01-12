@@ -27,8 +27,8 @@ const Navbar = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       style={{ fontFamily: "CustomFont" }}
-      className={`fixed w-full z-50 transition-all backdrop-blur font-semibold duration-300 ${
-        isScrolled ? " bg-transparent" : "bg-transparent"
+      className={`fixed w-full z-50 transition-all font-semibold duration-300 ${
+        isScrolled ? " bg-transparent " : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
